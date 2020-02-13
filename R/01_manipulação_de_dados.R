@@ -129,3 +129,11 @@ write.csv(x = comm.total,
           file = "data/01_data_format_combined.csv",
           row.names = FALSE)
 tabela_lida <- read.csv("data/01_data_format_combined.csv", header = TRUE)
+
+library(knitr)
+
+library(rmarkdown)
+
+install.packages("knitr", dependencies = T)
+
+
