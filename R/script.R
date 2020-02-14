@@ -12,6 +12,7 @@ range(data$comprimento_da_sepala)
 
 boxplot(data$comprimento_da_petala ~ data$especie, xlab = "Espécies", ylab = "Comprimento da petala (cm)", las = 1, xaxt = "n", col = 7, pch = 19)
 
+# fig.cap= ""
 # para mudar  a cor col = "nome da cor em inglês"
 # mudar icone pch = numeros"
 # bty = numero (não fechar o quadrado)

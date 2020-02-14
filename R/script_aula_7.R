@@ -182,7 +182,9 @@ par(mfrow=c(1,1))
 
 pairs(vars)
 
-library("GGally")
-#install.packages(GGally)
 
+#install.packages(GGally)
+#install.packages(remedy)
 ##instalar p pack acima e rodar para um novo gráfico##
+library("GGally")
+library("remedy")
